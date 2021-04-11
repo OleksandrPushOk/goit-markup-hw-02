@@ -28,6 +28,9 @@ ul {
 .logo:focus {
   color: #212121;
 }
+.logo:active {
+  color: red;
+}
 
 .site-nav .link {
   color: var(--basic-text-color);
@@ -40,6 +43,9 @@ ul {
 .site-nav .link:focus {
   color: var(--hover-focus-color);
 }
+.site-nav .link:active {
+  color: red;
+}
 
 .contacts {
   color: #757575;
@@ -51,6 +57,9 @@ ul {
 .contacts:hover,
 .contacts:focus {
   color: var(--hover-focus-color);
+}
+.contacts:active {
+  color: red;
 }
 
 .hero {
@@ -73,6 +82,9 @@ ul {
   line-height: 1, 9;
   text-align: center;
   letter-spacing: 0.06em;
+}
+.hero-button:active {
+  color: red;
 }
 
 .quality .title {
@@ -135,6 +147,9 @@ ul {
 .component-logo:focus {
   color: #ffffff;
 }
+.component-logo:active {
+  color: red;
+}
 
 .map {
   color: #ffffff;
@@ -146,6 +161,9 @@ ul {
 .map:focus {
   color: var(--hover-focus-color);
 }
+.map:active {
+  color: red;
+}
 
 .link {
   color: rgba(255, 255, 255, 0.6);
@@ -156,6 +174,9 @@ ul {
 .link:hover,
 .link:focus {
   color: var(--hover-focus-color);
+}
+.link:active {
+  color: red;
 }
 
 .all-buttons {
@@ -169,6 +190,9 @@ ul {
 .all-buttons:hover,
 .all-buttons:focus {
   background-color: var(--hover-focus-color);
+}
+.all-buttons:active {
+  color: red;
 }
 
 .photo h2 {
