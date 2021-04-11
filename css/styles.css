@@ -1,6 +1,17 @@
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-/*font-family: "Raleway", sans-serif;
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">/*
+
+.logo {
+  color: aqua;
+  font-family: "Raleway", sans-serif;
+}
+/*@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/raleway-v19-latin-700.woff) format("woff"),
+  url(../fonts/raleway-v19-latin-700.woff2) format("woff2"");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
